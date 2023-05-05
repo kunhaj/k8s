@@ -29,3 +29,27 @@ For example, you can use `kubectl create deployment <deployment-name> --image=<i
 For example, you can use `kubectl scale deployment <deployment-name> --replicas=<number-of-replicas>` to scale a deployment to a specific number of replicas.
 
 `kubectl --help` or `kubectl <command> --help` for help on specific commands.
+
+#### `kubectl get`
+
+1. `kubectl get pods`: This command is used to get a list of all the pods running in a cluster, along with their current status, age, IP address, and node name.
+
+2. `kubectl get nodes`: This command is used to get a list of all the nodes in the cluster, along with their current status, age, IP address, and number of pods running on each node.
+
+3. `kubectl get services`: This command is used to get a list of all the services in the cluster, along with their current status, age, IP address, and port mappings.
+
+4. `kubectl get deployments`: This command is used to get a list of all the deployments in the cluster, along with their current status, age, number of replicas, and available updates.
+
+5. `kubectl get replicasets`: This command is used to get a list of all the replicasets in the cluster, along with their current status, age, and number of replicas.
+
+6. `kubectl get configmaps`: This command is used to get a list of all the configmaps in the cluster, along with their current status, age, and data.
+
+7. `kubectl get secrets`: This command is used to get a list of all the secrets in the cluster, along with their current status, age, and data.
+
+8. `kubectl get persistentvolumes`: This command is used to get a list of all the persistent volumes in the cluster, along with their current status, age, storage class, and capacity.
+
+9. `kubectl get persistentvolumeclaims`: This command is used to get a list of all the persistent volume claims in the cluster, along with their current status, age, storage class, and capacity.
+
+10. `kubectl get namespaces`: This command is used to get a list of all the namespaces in the cluster, along with their current status, age, and labels.
+
+For more information, you can refer to the official Kubernetes documentation or run `kubectl get --help` for help on specific commands.
